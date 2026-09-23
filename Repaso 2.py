@@ -59,13 +59,14 @@ while True:
                         pasajeros.append(nombre_pasajeros)
                         nombres_pasajeros_restantes = cantidad_de_tiquetes - (i + 1)
 
-                        print(f"""Destino: {destino}
+                print(f"""Destino: {destino}
                 Total a pagar: {total_a_pagar}
                 Pasajeros: {pasajeros}
                 """)
 
         except ValueError:
             print("Opción no válida")
+            break
 
 
 
