@@ -1,23 +1,18 @@
-## UN BUS VEDNDE TICKETES
+#Ejercicio para una empresa de bus los siguientes destinos. Cada vía tiene su propio precio.
 
-#ejercicio para una empresa llamada __ de bus de una empresa que posee los siguientes destinos. Cada vía tiene su propio precio.
+#Precio de los tiquetes
 Destino_medellin_bogota = 120000
 destino_medellin_cali = 1000000
 destino_medellin_barranquilla = 150000
 destino_medellin_cartagena = 200000
 
+# Se debe solicitar destino, cantidad de ticketes, y según la cantidad de los ticketes va  a decidir cuántos nombres se piden.
 
-
-# Lista de nombres de los pasajeros
-
-#Saber el sisteam cuántas veces va a preguntar según la cantidad de tiquetes que se adquirieron
-
-#Soliitar destino, cantidad de ticketes, y según la cantidad de los ticketes va  a decidir de cuánto es el bucle de pedir el nombre según la cantidad de los pasajeros al entrar, y pide su nombre sin más ni menos.
-
+# Bucle que reinicia las peticiones para generar una nueva factura
 while True:
         try:
-
-            destino_pasajero = int(input(f"""Rutas disponibles:
+            destino_pasajero = int(input(f"""            ==TIQUETE DE BUS===\n        
+            Rutas disponibles:
 
             1. Medellín --> Bogotá / Precio: {Destino_medellin_bogota}
             2. Medellín --> Cali / Precio: {destino_medellin_cali}
